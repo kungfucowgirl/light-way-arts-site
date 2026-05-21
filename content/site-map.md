@@ -6,7 +6,7 @@ Start with a one-page website.
 
 1. Hero
 - Introduce Light Way Arts Foundation
-- Short mission statement
+- Short mission statement (advances arts, education, and cultural exchange)
 - Primary button: Support Our Work
 - Secondary button: Explore Projects
 
@@ -27,12 +27,25 @@ Start with a one-page website.
 - Shadow puppetry workshops
 - Community arts partnerships
 
-5. Events
+5. Leadership
+- Founding Board of Directors
+- Director list: Xue Hwang, Gene Hwang, Jonathan Ginsberg
+- Verification contact: gene@lightwayarts.org
+
+6. Events
 - Use placeholder text for now unless confirmed dates are provided
 
-6. Support
+7. Support
 - Explain that supporters can help bring performances, books, workshops, and cultural programming to more families
-- Use placeholder donation/contact language until donation method is confirmed
+- Contact: gene@lightwayarts.org, hello@lightwayarts.org
+- Online giving details coming soon (no donation link yet)
 
-7. Contact
-- Include placeholder email or future contact form
+8. Contact
+- hello@lightwayarts.org (general)
+- gene@lightwayarts.org (director / verification)
+- 501(c)(3) nonprofit organization, Austin, Texas
+
+## Footer
+- 501(c)(3) nonprofit status
+- hello@lightwayarts.org
+- Copyright

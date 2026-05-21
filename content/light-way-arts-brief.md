@@ -1,13 +1,13 @@
 # Light Way Arts Foundation Brief
 
 ## Working identity
-Light Way Arts Foundation is an Austin-based nonprofit arts foundation.
+Light Way Arts Foundation is an Austin-based 501(c)(3) nonprofit arts foundation.
 
 ## Purpose
 The website should introduce the foundation, explain its mission, showcase current and future projects, support outreach to donors/sponsors/community partners, and provide a credible home for people who discover the organization through performances, books, schools, grants, or community events.
 
 ## Mission draft
-Light Way Arts Foundation creates and supports cross-cultural storytelling, bilingual arts education, family-centered performance, and community arts programs that connect Chinese and American cultural traditions.
+Light Way Arts Foundation advances the arts, education, and cultural exchange through cross-cultural storytelling, bilingual arts education, family-centered performance, and community arts programs that connect Chinese and American cultural traditions.
 
 ## Core themes
 - Cross-cultural storytelling
@@ -47,5 +47,12 @@ Warm, elegant, sincere, artistic, family-friendly, credible.
 ## Design direction
 Use a refined nonprofit arts style. Possible colors: warm gold, deep brown, burgundy, cream, ink black. Visual ideas may include light, path, lantern, brushstroke, shadow, paper, and subtle Chinese character inspiration.
 
+## Contact
+- General: hello@lightwayarts.org
+- Director / verification: gene@lightwayarts.org
+
+## Leadership
+Founding board: Xue Hwang, Gene Hwang, Jonathan Ginsberg (directors). See `leadership.md`.
+
 ## Important caution
-Do not make specific legal, tax, donation, sponsor, grant, or event claims unless separately confirmed.
+Do not invent additional directors, bios, sponsor claims, grant claims, donation processing links, or event dates. 501(c)(3) status and listed contact emails are confirmed for the website.
