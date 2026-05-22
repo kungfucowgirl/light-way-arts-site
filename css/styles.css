@@ -519,40 +519,119 @@ p:last-child {
   border-block: 1px solid var(--color-cream-dark);
 }
 
-.director-list {
-  list-style: none;
-  margin: var(--space-lg) 0;
-  padding: 0;
-  border-top: 1px solid var(--color-cream-dark);
+.leadership-intro {
+  max-width: 42rem;
+  margin-bottom: var(--space-lg);
 }
 
-.director-item {
+.leadership-grid {
   display: grid;
-  gap: 0.15rem;
-  padding: var(--space-md) 0;
-  border-bottom: 1px solid var(--color-cream-dark);
+  gap: var(--space-lg);
+  grid-template-columns: 1fr;
+  margin-bottom: var(--space-lg);
 }
 
-.director-name {
+@media (min-width: 64rem) {
+  .leadership-grid {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+  }
+}
+
+.leader-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: var(--space-md);
+  background: var(--color-cream);
+  border: 1px solid var(--color-cream-dark);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+}
+
+.leader-photo {
+  width: 8.5rem;
+  height: 8.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center top;
+  margin-bottom: var(--space-md);
+  border: 2px solid var(--color-cream-dark);
+}
+
+.leader-body {
+  width: 100%;
+}
+
+.leader-name {
   font-family: var(--font-display);
-  font-size: 1.25rem;
+  font-size: 1.375rem;
   font-weight: 600;
   color: var(--color-brown);
+  margin: 0 0 0.35rem;
+  line-height: 1.25;
 }
 
-.director-role {
-  font-size: 0.9375rem;
+.leader-name span[lang="zh"] {
+  font-weight: 400;
   color: var(--color-text-muted);
 }
 
-.director-contact {
-  font-size: 0.9375rem;
+.leader-title {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-burgundy);
+  margin: 0 0 var(--space-sm);
+}
+
+.leader-contact {
+  font-size: 0.875rem;
   color: var(--color-text-muted);
+  margin: 0 0 var(--space-sm);
+}
+
+.leader-contact a {
+  text-decoration: none;
+}
+
+.leader-contact a:hover,
+.leader-contact a:focus-visible {
+  text-decoration: underline;
+}
+
+.leader-bio {
+  text-align: left;
+  border-top: 1px solid var(--color-cream-dark);
+  padding-top: var(--space-sm);
+}
+
+.leader-bio p {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin-bottom: var(--space-sm);
+}
+
+.leader-bio p:last-child {
+  margin-bottom: 0;
+}
+
+.leader-bio em {
+  font-style: italic;
+  color: var(--color-text);
 }
 
 .leadership-inquiry {
+  max-width: 42rem;
+  margin-inline: auto;
+  text-align: center;
   font-size: 0.9375rem;
   color: var(--color-text-muted);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-cream-dark);
 }
 
 /* Events */
