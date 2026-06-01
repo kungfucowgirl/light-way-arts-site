@@ -33,7 +33,8 @@ Start with a one-page website.
 - Verification contact: gene@lightwayarts.org
 
 6. Events
-- Use placeholder text for now unless confirmed dates are provided
+- First Light: A Community Arts Night at The VORTEX (June 3, 2026)
+- Image: public/images/first-light-vortex-2026-poster.png
 
 7. Support
 - Explain that supporters can help bring performances, books, workshops, and cultural programming to more families
