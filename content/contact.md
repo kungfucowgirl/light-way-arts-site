@@ -10,6 +10,10 @@ We welcome questions about performances, school and library visits, community pa
 - General inquiries: hello@lightwayarts.org
 - Director / verification inquiries: gene@lightwayarts.org
 
+## Instagram
+- https://www.instagram.com/lightwayarts/
+- @lightwayarts
+
 ## Organization
 Light Way Arts Foundation
 Austin, Texas

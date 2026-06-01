@@ -51,6 +51,11 @@ Use a refined nonprofit arts style. Possible colors: warm gold, deep brown, burg
 - General: hello@lightwayarts.org
 - Director / verification: gene@lightwayarts.org
 
+## Social Media
+
+Instagram: https://www.instagram.com/lightwayarts/
+Handle: @lightwayarts
+
 ## Leadership
 Founding board: Xue Hwang, Gene Hwang, Jonathan Ginsberg (directors). See `leadership.md`.
 
