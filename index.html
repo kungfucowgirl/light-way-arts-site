@@ -42,7 +42,7 @@
         <ul>
           <li><a href="#mission">Mission</a></li>
           <li><a href="#community-access">Community Access</a></li>
-          <li><a href="#projects">Projects</a></li>
+          <li class="nav-item-optional"><a href="#projects">Projects</a></li>
           <li><a href="#programs">Programs</a></li>
           <li><a href="#leadership">Leadership</a></li>
           <li><a href="#events">Events</a></li>
@@ -65,8 +65,8 @@
           cultural traditions.
         </p>
         <div class="hero-actions">
-          <a href="#support" class="btn btn-primary">Support Our Work</a>
-          <a href="#projects" class="btn btn-secondary">Explore Projects</a>
+          <a href="#community-access" class="btn btn-primary">Support Community Access</a>
+          <a href="#projects" class="btn btn-secondary">Explore Our Work</a>
         </div>
         <p class="hero-note">Theater · Shadow puppetry · Bilingual storytelling · Family-centered arts</p>
       </div>
@@ -170,30 +170,54 @@
           </ul>
         </div>
 
-        <div class="community-initiative">
+        <div class="community-initiative initiative-feature">
           <h3 class="community-subsection-title">Upcoming Initiative: Community Access for Kung Fu Cowgirl</h3>
-          <p>
-            <em>Kung Fu Cowgirl</em> is a cross-cultural musical world blending Texas spirit,
-            Chinese cultural elements, music, movement, humor, courage, and East-meets-West
-            storytelling.
-          </p>
-          <p>
-            Light Way Arts Foundation is developing community access programming around this work,
-            including family engagement, educational outreach, and opportunities for more
-            Austin-area families and young people to experience cross-cultural live performance.
-          </p>
-          <p>
-            Support for this initiative can help provide free or reduced-cost access, school and
-            community outreach, bilingual family programming, artist/community engagement, and
-            materials that make the experience more welcoming and accessible.
-          </p>
-          <a
-            class="btn btn-secondary community-access-btn"
-            href="https://www.kungfucowgirl.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >Learn About Kung Fu Cowgirl</a>
+          <div class="initiative-feature-grid">
+            <div class="initiative-feature-visual">
+              <div class="initiative-feature-panel" aria-hidden="true">
+                <span class="initiative-feature-eyebrow">Community Access Program</span>
+                <span class="initiative-feature-name">Kung Fu Cowgirl</span>
+              </div>
+            </div>
+            <div class="initiative-feature-body">
+              <p>
+                <em>Kung Fu Cowgirl</em> is a cross-cultural musical world blending Texas spirit,
+                Chinese cultural elements, music, movement, humor, courage, and East-meets-West
+                storytelling.
+              </p>
+              <p>
+                Light Way Arts Foundation is developing community access programming around
+                <em>Kung Fu Cowgirl</em>, including family engagement, educational outreach,
+                bilingual storytelling, and opportunities for more Austin-area families and young
+                people to experience cross-cultural live performance.
+              </p>
+              <p>
+                Support for this initiative can help provide free or reduced-cost access, school and
+                community outreach, bilingual family programming, artist/community engagement, and
+                materials that make the experience more welcoming and accessible.
+              </p>
+              <a
+                class="btn btn-secondary community-access-btn"
+                href="https://www.kungfucowgirl.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Learn About Kung Fu Cowgirl</a>
+            </div>
+          </div>
         </div>
+
+        <aside class="sponsor-callout" aria-labelledby="sponsor-callout-heading">
+          <h3 class="sponsor-callout-title" id="sponsor-callout-heading">For Sponsors &amp; Community Partners</h3>
+          <p>
+            Support can help provide free or reduced-cost access, family arts workshops, bilingual
+            storytelling, books and supplies, community outreach, refreshments, and welcoming public
+            programs for Austin-area families and students.
+          </p>
+          <p>
+            For sponsorship or partnership inquiries, contact Gene Hwang at
+            <a href="mailto:gene@lightwayarts.org">gene@lightwayarts.org</a>.
+          </p>
+        </aside>
       </div>
     </section>
 
@@ -209,41 +233,54 @@
         </header>
 
         <div class="card-grid">
+          <!-- Add class "has-image" and uncomment card-media when a project image is available -->
           <article class="card">
-            <p class="card-title-en">Light</p>
-            <p class="card-title-zh" lang="zh">光</p>
-            <p>
-              A solo Chinese play with English accessibility elements, created by Zheng Xue (Snow),
-              exploring family, memory, grief, hope, and the parent-child bond through theatrical
-              storytelling and shadow puppetry.
-            </p>
+            <div class="card-media is-empty"></div>
+            <div class="card-content">
+              <p class="card-title-en">Light</p>
+              <p class="card-title-zh" lang="zh">光</p>
+              <p>
+                A solo Chinese play with English accessibility elements, created by Zheng Xue (Snow),
+                exploring family, memory, grief, hope, and the parent-child bond through theatrical
+                storytelling and shadow puppetry.
+              </p>
+            </div>
           </article>
 
           <article class="card">
-            <p class="card-title-en">Impossible Light</p>
-            <p class="card-title-zh" lang="zh">永远的光</p>
-            <p>
-              A bilingual children’s picture book connected to the world and emotional themes of
-              <em>Light</em>. It brings themes of love, memory, and family connection to children
-              and families through story and image.
-            </p>
+            <div class="card-media is-empty"></div>
+            <div class="card-content">
+              <p class="card-title-en">Impossible Light</p>
+              <p class="card-title-zh" lang="zh">永远的光</p>
+              <p>
+                A bilingual children’s picture book connected to the world and emotional themes of
+                <em>Light</em>. It brings themes of love, memory, and family connection to children
+                and families through story and image.
+              </p>
+            </div>
           </article>
 
           <article class="card">
-            <p class="card-title-en">Kung Fu Cowgirl</p>
-            <p>
-              A cross-cultural performance world blending Texas spirit, Chinese cultural elements,
-              music, movement, humor, courage, and East-meets-West storytelling.
-            </p>
+            <div class="card-media is-empty"></div>
+            <div class="card-content">
+              <p class="card-title-en">Kung Fu Cowgirl</p>
+              <p>
+                A cross-cultural performance world blending Texas spirit, Chinese cultural elements,
+                music, movement, humor, courage, and East-meets-West storytelling.
+              </p>
+            </div>
           </article>
 
           <article class="card card-wide">
-            <p class="card-title-en">Community Arts Programs</p>
-            <p>
-              Bilingual storytelling, school visits, shadow puppetry workshops, bookstore and
-              library events, and family-centered community arts activities — bringing
-              performances, books, and cultural programming to more people.
-            </p>
+            <div class="card-media is-empty"></div>
+            <div class="card-content">
+              <p class="card-title-en">Community Arts Programs</p>
+              <p>
+                Bilingual storytelling, school visits, shadow puppetry workshops, bookstore and
+                library events, and family-centered community arts activities — bringing
+                performances, books, and cultural programming to more people.
+              </p>
+            </div>
           </article>
         </div>
       </div>
@@ -394,10 +431,10 @@
       <div class="container">
         <header class="section-header">
           <p class="section-label">Events</p>
-          <h2 id="events-heading">Gatherings &amp; public programs</h2>
+          <h2 id="events-heading">Recent &amp; Upcoming Programs</h2>
         </header>
 
-        <article class="event-card event-card--poster" aria-labelledby="event-first-light-title">
+        <article class="event-card event-card--poster event-card--past" aria-labelledby="event-first-light-title">
           <figure class="event-poster-wrap">
             <img
               class="event-poster"
@@ -407,6 +444,7 @@
             >
           </figure>
           <div class="event-card-body">
+            <p class="event-status">Past program</p>
             <p class="event-presented">Presented by Light Way Arts Foundation</p>
             <h3 class="event-title" id="event-first-light-title">
               First Light: A Community Arts Night at The VORTEX
@@ -428,20 +466,12 @@
               </div>
             </dl>
             <p>
-              Join Light Way Arts Foundation for an intimate evening of local performance,
-              storytelling, music, comedy, and community in the beautiful outdoor space of
-              The VORTEX / Butterfly Bar.
-            </p>
-            <p>
-              Featuring local artists in music, comedy, storytelling, dance, theater, and
-              surprise moments.
+              Held on June 3, 2026 at The VORTEX / Butterfly Bar, First Light brought together
+              local artists and community members for storytelling, music, comedy, movement, and
+              shared connection.
             </p>
             <p class="event-theme">
               <strong>Theme:</strong> Stories, songs, laughter, and light.
-            </p>
-            <p class="event-rsvp">
-              <strong>RSVP / Support:</strong> Scan the QR code on the event image or contact
-              <a href="mailto:hello@lightwayarts.org">hello@lightwayarts.org</a>.
             </p>
           </div>
         </article>
